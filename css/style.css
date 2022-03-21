@@ -1,0 +1,44 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+body {
+    width: 100%;
+    height: 100%;
+}
+.paragrafo1{
+    float: right;
+    width: 50%;
+    height: 50%;
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+.paragrafo2{
+    float: left;
+    width: 50%;
+    height: 50%;
+    color: white;
+    background-color: rgb(26, 26, 144);
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    .paragrafo1{
+        float: right;
+        width: 100%;
+        height: 50%;
+        color: white;
+        background-color: blue;
+        text-align: center;
+    }
+    .paragrafo2{
+        float: left;
+        width: 100%;
+        height: 50%;
+        color: white;
+        background-color: rgb(26, 26, 144);
+        text-align: center;
+    }
+}
